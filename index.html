@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Lexend+Tera:wght@300;500;800&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="bg-lines">
+        <div class="color-line" style="background: #eee;"></div>
+        <div class="color-line" style="background: #D7D954;"></div>
+        <div class="color-line" style="background: #55C9C8;"></div>
+        <div class="color-line" style="background: #41B34C;"></div>
+        <div class="color-line" style="background: #C8399D;"></div>
+        <div class="color-line" style="background: #D63525;"></div>
+        <div class="color-line" style="background: #694FAF;"></div>
+    </div>
+
+    <div class="bg-black">
+        <div class="time-and-data">
+            <div class="data"></div>
+            <div class="time"></div>
+        </div>
+        <div class="all-row">
+            <div class="title-row">
+                <div class="title">
+                    <h1>PIXEL-SKETCH</h1>
+                </div>
+            </div>
+            <div class="center-elem-row">
+                <div class="left-part">
+                    <div class="color-circle">
+                        <div class="color-round">
+                            <input type="color" id="my-color" value="#41B34C">
+                        </div>
+                    </div>
+                    <div class="brashes">
+                        <div class="brush color-tap">
+                            <div class="place-for-arrow" id="arrow-for-color"></div>
+                            <h2 id="color-brush">COLOR</h2>
+                        </div>
+                        <div class="brush black-tap">
+                            <div class="place-for-arrow" id="arrow-for-black"></div>
+                            <h2 id="black-brush">BLACK</h2>
+                        </div>
+                        <div class="brush rainbow-tap">
+                            <div class="place-for-arrow" id="arrow-for-rainbow"></div>
+                            <h2 id="rainbow-brush">RAINBOW</h2>
+                        </div>
+                        <div class="brush clean-tap">
+                            <div class="place-for-arrow" id="arrow-for-eraser"></div>
+                            <h2 id="eraser-brush">ERASER</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="center-part">
+                    <div id="full-grid" class="grid">
+                    </div>
+                </div>
+                <div class="right-part">
+                    <img class="new-sketch-btn" id="new-sketch-btn" src="../Etch-A-Sketch/icons/delete-sketch-btn.svg">
+                </div>
+            </div>
+            <div class="range-row">
+                <div class="range-container">
+                    <div class="range-num" id="range-num">
+                    </div>
+                    <input id="range" type="range" min="12" max="24">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
