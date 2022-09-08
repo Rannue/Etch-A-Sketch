@@ -187,7 +187,7 @@ h2 {
 .bg-black .all-row .center-elem-row .left-part .brashes .brush .arrow {
   width: 25px;
   height: 25px;
-  background-image: url("../Etch-A-Sketch/icons/arrow.svg");
+  background-image: url("../icons/arrow.svg");
 }
 
 .bg-black .all-row .center-elem-row .center-part #full-grid {
